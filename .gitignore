@@ -23,3 +23,6 @@
 
 # Ignore Gemfile.lock
 Gemfile.lock
+
+# Ignore application configuration
+/config/application.yml

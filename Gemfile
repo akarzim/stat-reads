@@ -43,3 +43,4 @@ end
 
 
 gem 'figaro'
+gem 'slim-rails'

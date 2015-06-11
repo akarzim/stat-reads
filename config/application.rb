@@ -17,6 +17,8 @@ Bundler.require(*Rails.groups)
 
 module StatReads
   class Application < Rails::Application
+    config.time_zone = 'Europe/Paris'
+    config.i18n.default_locale = 'fr'
     config.assets.paths << Rails.root.join('/app/assets/fonts')
     config.assets.enabled = true
     config.generators do |g|

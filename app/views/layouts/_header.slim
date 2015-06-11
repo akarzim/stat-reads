@@ -1,0 +1,8 @@
+header.navigation role="banner"
+  .navigation-wrapper
+    = link_to(locale_root_path, class: 'logo') do
+      h1= fa_icon 'circle-o-notch', text: 'Stat Reads'
+
+    .navigation-tools
+      = link_to('EN', params.merge(locale: :en), class: 'locale')
+      = link_to('FR', params.merge(locale: :fr), class: 'locale')

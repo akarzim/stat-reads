@@ -44,3 +44,6 @@ end
 
 gem 'figaro'
 gem 'slim-rails'
+group :development, :test do
+  gem 'rspec-rails'
+end

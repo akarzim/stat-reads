@@ -11,3 +11,15 @@
 /log/*
 !/log/.keep
 /tmp
+/.sass-cache
+*.*~
+*.bak
+.*.log
+.DS_Store
+
+# Ignore the default database
+/db/*.db
+/db/schema.rb
+
+# Ignore Gemfile.lock
+Gemfile.lock

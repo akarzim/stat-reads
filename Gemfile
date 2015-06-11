@@ -51,3 +51,4 @@ end
 gem 'bourbon'
 gem 'neat'
 gem 'font-awesome-rails'
+gem 'responders'

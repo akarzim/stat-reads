@@ -47,3 +47,7 @@ gem 'slim-rails'
 group :development, :test do
   gem 'rspec-rails'
 end
+
+gem 'bourbon'
+gem 'neat'
+gem 'font-awesome-rails'

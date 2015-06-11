@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  root 'welcome#home'
+  get 'welcome/home'
+  get '/:locale' => 'welcome#home', as: :locale_root
   scope "(:locale)", locale: /fr|en/ do
   end
   # The priority is based upon order of creation: first created -> highest priority.
